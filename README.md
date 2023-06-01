@@ -1,5 +1,19 @@
 # Setting & Remote Control(SSH) menggunakan Tremux dan Wsl Ubuntu
-Pada kesempatan 
+Remote control melalui SSH (Secure Shell) adalah proses mengakses dan mengendalikan sistem komputer yang terletak di lokasi fisik yang berbeda melalui jaringan. Dengan menggunakan koneksi SSH, Anda dapat terhubung ke komputer atau server yang jauh secara aman dan menjalankan perintah-perintah dari jarak jauh.
+
+Berikut ini adalah beberapa kegunaan utama dari remote control melalui SSH:
+
+1. Akses dan administrasi jarak jauh: Dengan SSH, Anda dapat mengakses dan mengendalikan sistem komputer dari jarak jauh tanpa harus berada di depan komputer fisiknya. Ini memungkinkan Anda untuk melakukan administrasi sistem, mengelola berkas dan direktori, menginstal dan memperbarui perangkat lunak, serta menjalankan perintah lainnya dengan mudah.
+
+2. Konsolidasi dan manajemen server: SSH memungkinkan Anda untuk mengakses dan mengendalikan beberapa server dari satu lokasi. Dengan menggunakan koneksi SSH, Anda dapat mengelola dan mengkonfigurasi server secara efisien tanpa harus berpindah-pindah fisik ke setiap server secara terpisah.
+
+3. Pemeliharaan dan pemecahan masalah: SSH memungkinkan administrator sistem untuk memelihara dan memperbaiki sistem dari jarak jauh. Anda dapat memantau sistem, menganalisis log, menjalankan skrip pemeliharaan, serta memperbaiki masalah yang mungkin timbul tanpa perlu berada di dekat komputer secara fisik.
+
+4. Transfer berkas yang aman: Selain mengendalikan sistem, SSH juga memungkinkan Anda untuk mentransfer berkas antara komputer lokal dan jarak jauh melalui protokol SCP (Secure Copy) atau SFTP (SSH File Transfer Protocol). Ini memberikan cara yang aman untuk mengirim dan menerima berkas antara dua sistem.
+
+5. Koneksi aman: Salah satu keunggulan utama SSH adalah keamanannya. Semua koneksi dan data yang dikirim melalui SSH dienkripsi, sehingga menjaga kerahasiaan dan integritas informasi yang dikirimkan. Hal ini sangat penting saat mengakses sistem yang berada di jaringan publik atau saat melakukan komunikasi melalui internet.
+
+Remote control melalui SSH adalah alat yang kuat bagi administrator sistem dan pengguna yang membutuhkan akses jarak jauh ke sistem komputer. Ini memberikan kemampuan untuk mengelola dan mengontrol sistem dari mana saja, dengan tingkat keamanan yang tinggi.
 
 ## Setting awal Server
 Untuk melakukan pengaturan dan koneksi jarak jauh (remote connection) melalui SSH pada Ubuntu Server, berikut adalah langkah-langkah yang dapat Anda ikuti:
